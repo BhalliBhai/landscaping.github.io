@@ -598,10 +598,15 @@ li {
     box-shadow: 2px 2px 5px rgb(161, 160, 160);
 }
 
-.w-50 {
+.blog-text {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+    .blog-text{
+        width: 80%;
+    }
 }
 
 .bslider {
