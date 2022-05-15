@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.blog-slider-bg {
+    padding: 50px;
+}
+
+.quovolve {
+    margin: 0;
+}
+
+.quovolve {
+    margin: 0;
+}
+
+.quovolve h4 {
+    color: rgb(255, 93, 147);
+}
+
+.quovolve p {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.quotes ul {
+    list-style: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.quotes {
+    width: 90%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 5px solid rgb(255, 93, 147);
+    background-color: rgba(255, 255, 255, 0.5);
+    min-height: 325px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .quotes {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .quotes {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .quotes {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .quotes {
+        width: 65%;
+    }
+}
+
+
+/**
+   * General Navigation Styles
+   */
+
+.quovolve-nav:before,
+.quovolve-nav:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.quovolve-nav .nav-prev {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+
+.quovolve-nav .nav-next {
+    position: absolute;
+    top: 50%;
+    right: 2%;
+    margin-right: -1px !important;
+}
+
+.quovolve-nav:after {
+    clear: both;
+}
+
+.quovolve-nav {
+    margin: 0px;
+    line-height: 30px;
+    zoom: 1;
+}
+
+.quovolve-nav span {
+    float: left;
+    margin-right: 5px;
+}
+
+
+/*.quovolve-nav a {
+     background: #aaa;
+    line-height: 20px;
+    color: #fff;
+    display: block;
+    padding: 5px 15px;
+    border: 0 none;
+    text-align: center;
+   
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 50%;
+   
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15); 
+}*/
+
+.quovolve-nav a .fas {
+    color: white;
+    font-size: 30px;
+}
+
+.quovolve-nav a .fas:hover {
+    color: rgb(255, 93, 147);
+}
+
+
+/**
+   * Numbered Navigation
+   */
+
+.nav-numbers {
+    list-style: none;
+    margin: 0;
+    float: right;
+    display: none;
+}
+
+
+/**
+   * Navigation Description
+   */
+
+.nav-text {
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    transform: translate(-50% -50%);
+    color: #aaa;
+    margin-bottom: 10px;
+    display: none;
+}
